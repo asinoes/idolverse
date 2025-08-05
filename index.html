@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IdolVerse - Comunidad K-pop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f7f5fc;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #e75480, #9370db);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .btn {
+      padding: 10px 20px;
+      margin: 10px;
+      background: #e75480;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: #d64271;
+    }
+    .memberships, .fandoms {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌟 IdolVerse</h1>
+    <p>Tu comunidad exclusiva para fans de K-pop</p>
+  </header>
+
+  <div class="container">
+    <h2>¡Bienvenida, fan del K-pop!</h2>
+    <p>Explora zonas por fandom, consigue rangos, gana premios y conecta con otras fans como tú.</p>
+
+    <div style="text-align:center;">
+      <button class="btn">Registrarse</button>
+      <button class="btn">Iniciar sesión</button>
+    </div>
+
+    <h2>🎖️ Membresías y Rangos</h2>
+    <div class="memberships">
+      <div class="card">
+        <h3>Trainee</h3>
+        <p>Acceso básico gratuito</p>
+      </div>
+      <div class="card">
+        <h3>Rookie</h3>
+        <p>Alias personalizado + contenido extra</p>
+      </div>
+      <div class="card">
+        <h3>Idol</h3>
+        <p>Contenido exclusivo, insignias y más</p>
+      </div>
+      <div class="card">
+        <h3>Legendary Fan</h3>
+        <p>Acceso total + sorteos especiales</p>
+      </div>
+    </div>
+
+    <h2>💖 Zonas por Fandom</h2>
+    <div class="fandoms">
+      <div class="card">
+        <h3>BlackpinkZone</h3>
+        <p>Todo sobre Blackpink</p>
+      </div>
+      <div class="card">
+        <h3>SKZCenter</h3>
+        <p>Para STAYs de Stray Kids</p>
+      </div>
+      <div class="card">
+        <h3>ARMY Corner</h3>
+        <p>Zona futura para BTS</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
